@@ -1,0 +1,47 @@
+.p1{
+    width: 50%;
+    background-color: grey;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1{
+    border: 2px solid red;
+    width: 25%;
+}
+strong{
+    /* padding: 25px; */
+    background-color: #a84d4d;
+    display: inline-block;
+    height: 60px;
+    width: 50%;
+}
+b{
+    display: inline;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    background-color: #ccc;
+}
+a{
+    display: inline-block;
+    padding: 3px;
+}
+a:active{
+    background-color: yellow;
+}
+
+ul li{
+    list-style-type: disc;
+    list-style-position: outside;
+}
+ol li{
+    list-style: decimal inside;
+}

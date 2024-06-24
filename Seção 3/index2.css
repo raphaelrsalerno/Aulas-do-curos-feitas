@@ -1,0 +1,7 @@
+body{
+    background: url(imagens/tile-pattern.png) rgb(49, 47, 47) no-repeat fixed;
+    font-size: 200%;
+    line-height: 2;
+    color: white;
+
+}
