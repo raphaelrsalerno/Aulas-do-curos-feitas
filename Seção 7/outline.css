@@ -1,0 +1,18 @@
+div{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+
+    outline: 4px solid red;
+    box-sizing: border-box;
+    margin: 100px auto;
+    outline-style: dashed;
+    outline-offset: 16px;
+
+
+    /* outline nunca vai alterar o elemento, ele vai mudar a linha em volta do elemento porem nunca alterando ele igual a border fazer  */
+}
+
+div:hover{
+    outline-width: 10px;
+}

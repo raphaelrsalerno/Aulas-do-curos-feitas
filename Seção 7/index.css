@@ -1,0 +1,73 @@
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 3.4em;
+}
+
+p{
+    font-size: 3em;
+    width: 15em;
+    background-color: #ccc;
+}
+
+b{
+    color: red;
+    font-size: 1rem;
+    /* "rem" ela é uma unidade de medida q puxa direto do html */
+    /* jaa unidade de medida "em" ela se torna a padrao do elemento q vc escolher */
+    /* claro que para unidade funcionar como com o "px" ela precisa ter a font-size do html correta, se for 100 sera 16px 1em se caso for 62,5 sera 10px 1em e ai vc muda conforme vc quiser aumentando de 1 em 1 sendo de 10 em 10 ou 16 em 16 px */
+    font-size: 50%;
+}
+
+.porcentagem{
+    width: 50%;
+    height: 500px;
+    background-color: yellow;
+}
+
+.porcentagem p{
+    background-color: orange;
+    padding-top: 20%;
+    width: 50%;
+    font-size: 3rem;
+}
+
+.padding-em p{
+    background-color: transparent;
+    margin: 0;
+    padding: 1em;
+    font-size: 30px;
+}
+
+.padding-em{
+    background-color: red;
+}
+
+.viewport-container{
+    font-size: 3rem;
+    height: auto;
+}
+
+.viewport{
+    width: 90vw;
+    height: 90vh;
+    background-color: rgba(0, 0, 255, 0.295);
+}
+
+.em{
+    width: 20em;
+    padding: 1em;
+    margin: 1em;
+    background-color: orange;
+    font-size: 2em;
+}
+.ch{
+    width: 20ch;
+    width: 190px;
+    padding: 1em;
+    margin: 1em;
+    background-color: orange;
+    font-size: 3em;
+}

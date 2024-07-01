@@ -1,0 +1,20 @@
+div{
+    background-color: orange;
+    width: 200px;
+    height: 150px;
+    margin: 100px auto;
+    transition-property: width, height, background-color;
+    transition-duration: 1s, 2s;
+    transition-timing-function: cubic-bezier(.5,.52,.39,.39);
+    transition-delay: 0s, 0.5s;
+
+    /* transition: property(all) duration(0s) function(ease) daley(0s), property(all) duration(0s) function(ease) daley(0s); essa propriedade recebe os valores nessa ordem, e pode animar mais de um elemento */
+}
+
+/* podemos fazer transiçao com qualquer elemento numero, sempre usar s ou ms no final dos numeros para poder n ocorrer erro */
+
+div:hover{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}

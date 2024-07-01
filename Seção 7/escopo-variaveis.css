@@ -1,0 +1,20 @@
+html{
+    font-size: 200%;
+}
+
+:root{
+    --color:red;
+}
+
+.container{
+    --color:orange;
+}
+
+
+p{
+    color: var(--color)
+}
+
+.div1{
+    --color:green;
+}

@@ -1,0 +1,28 @@
+div{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+
+    border-radius: 50px 20px 0 80px / 100px 50px 0 20px;
+    /* começa no canto direito em cima */
+    /* se vc colcaor 50px / 20px essa barra separa os eixos, sendo o primeiro 50px um eixo horizontal e o 20px eixo vertical */
+
+    box-shadow: 20px 0 0 0 black, 0 20px 0 red;
+    /* temos como colocar mais de uma sombra no mesmo negocio separando por "," porem a sombra q vem em primeiro lugar é q prevalece */
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+
+    text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.9), -2px 2px 0 rgba(0, 0, 0, 0.7), -3px 3px 0 rgba(0, 0, 0, 0.5), -4px 4px 0 rgba(0, 0, 0, 0.3), -5px 5px 0 rgba(0, 0, 0, 0.1);
+    /* funciona da mesma forma q o box shadow porem n pode incluir o 4 numero sendo a ampliaçao dele, o text-shadow n funciona com ampliaçao */
+}
+
+
+
